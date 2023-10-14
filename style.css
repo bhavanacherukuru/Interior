@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+*{
+    margin:auto;
+}
+.body{
+    display:flex;
+    flex-direction:column;
+    font-family:'lora',serif;
+    font-weight: 400;
+    font-size: 1.2v;
+}
+header{
+      position:fixed;
+      display: flex;
+      flex-direction: row;
+      background: #030f12;
+      color: whitesmoke;  
+      width: 100%;
+      max-height: max-content;
+      min-height: 1em;
+     text-transform: uppercase;
+     z-index: 1;
+}
+hi
+.logo-section{
+    width: 10%;
+    margin-left: initial;
+}
+.logo-sec{
+    margin-left: 0.8em;
+    max-width: 35%;
+    max-height:100%;
+}
+.navigation-bar{
+      width: 70%;
+     flex-grow: 2%;
+     margin-inline-end:initial;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+header a,
+footer a{
+    color:whitesmoke;
+    text-decoration:none;
+
+}
+ul{
+    display:flex;
+    flex-direction:row;
+}
+.nav-link:hover{
+    color:crimson;
+    font-size: 20px;
+}
